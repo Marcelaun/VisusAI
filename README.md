@@ -75,40 +75,16 @@ graph TD
 * **Node.js v18+**
 * **Conta no Supabase (para DB e Storage)**
 * **Conta no Hugging Face (para o modelo)**
-**Passo 1: Configurar Variáveis de Ambiente**
-  Crie um arquivo ```.env``` na raiz do backend com as credenciais:
 
-```
-APP_KEY=base64:...
-DB_HOST=aws-0-sa-east-1.pooler.supabase.com
-DB_PORT=5432
-AWS_BUCKET=exam_images
-PYTHON_API_URL=https://seu-space.hf.space/predict_batch
-```
-
-**Passo 2: Subir o Backend (Docker)**
-```
-Bash
-```
-```
-cd backend
-docker-compose up -d --build
-```
-
-**Passo 3: Subir o Frontend**
-```
-Bash
-```
-
-```
-cd frontend
-npm install
-npm run dev
-```
 
 ## 🧠 Sobre o Modelo de IA
 O modelo foi treinado utilizando o dataset **APTOS 2019**, contendo milhares de imagens de retina classificadas em 5 níveis de severidade.
 Métrica  Valor 
 **Acurácia** 82%
 **Kappa Score** 0.90 (Excelente concordância)
+
+**🔗 Links do projeto:**
+* [Frontend (React)](https://github.com/Marcelaun/visus-ai-frontend)
+* [Backend (Laravel)](https://github.com/Marcelaun/backend_laravel).
+* [IA Service (Hugging Face)](https://github.com/Marcelaun/visus-ai-model)
 
