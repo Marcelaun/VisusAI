@@ -9,7 +9,6 @@
 
 O sistema opera de forma distribuída, conectando serviços na nuvem e servidores on-premise (Edge Computing).
 ```
-graph TD
     User[Médico / Paciente] -->|HTTPS| Frontend[Frontend (React/Vercel)]
     Frontend -->|API REST| Cloudflare[Cloudflare Tunnel]
     Cloudflare -->|HTTP2| Backend[Backend Laravel (Docker @ TV Box/Edge)]
