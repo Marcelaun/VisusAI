@@ -80,7 +80,7 @@ O sistema opera de forma distribuída, conectando serviços na nuvem e servidore
 ## 🧠 Sobre o Modelo de IA
 O modelo foi treinado utilizando o dataset **APTOS 2019**, contendo milhares de imagens de retina classificadas em 5 níveis de severidade.
 Métrica  Valor 
-**Acurácia** 82%
+**Acurácia** 80%
 **Kappa Score** 0.90 (Excelente concordância)
 
 **🔗 Links do projeto:**
