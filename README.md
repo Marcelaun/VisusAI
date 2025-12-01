@@ -2,7 +2,7 @@
 
 **Link para acessar online a plataforma:** [(https://visus-ai-frontend.vercel.app/)]
 
-**VisusAI** é uma solução SaaS (Software as a Service) completa para auxílio ao diagnóstico de Retinopatia Diabética, conectando médicos, pacientes e Inteligência Artificial em uma plataforma unificada.O projeto foi desenvolvido com foco em uma arquitetura de microsserviços híbrida (Cloud + Edge) para garantir alta disponibilidade, segurança e baixo custo de infraestrutura.
+**VisusAI** é uma solução SaaS (Software as a Service) completa para auxílio ao diagnóstico de Retinopatia Diabética, conectando médicos, pacientes e Inteligência Artificial em uma plataforma unificada.O projeto foi desenvolvido com foco em uma arquitetura de microsserviços híbrida (Cloud + Edge) para garantir disponibilidade, segurança e baixo custo de infraestrutura.
 
 
 ## 🏗️ Arquitetura do Sistema
